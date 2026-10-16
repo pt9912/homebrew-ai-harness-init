@@ -10,28 +10,28 @@
 class AiHarnessInit < Formula
   desc "Bootstrap-Werkzeug fuer den AI-Harness-Prozess"
   homepage "https://github.com/pt9912/ai-harness-init"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.7.0/ai-harness-init-darwin-arm64"
-      sha256 "ec3ef089532a0987680c01c673ac05910441e2d772bb963730de5e3f48400309"
+      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.8.0/ai-harness-init-darwin-arm64"
+      sha256 "822a7fa6b90f98538f46c3e4514546db2b7f1bce5f4de59dee0d94ab15cc0494"
     end
     on_intel do
-      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.7.0/ai-harness-init-darwin-amd64"
-      sha256 "1e82a56b5f8f6bdc3ba8931aff4e795e43a38b54a0763bd3de280f77361747ee"
+      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.8.0/ai-harness-init-darwin-amd64"
+      sha256 "ac2aa3f42ea39b68971d5190223ec0298e4356e05ee96ad13cdb5f1b7f67e4ba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.7.0/ai-harness-init-linux-arm64"
-      sha256 "90344c0ba00b2c15c08eae1b3d56b4f74f5f2b4e4e26f812d1cf0cdb67c7077d"
+      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.8.0/ai-harness-init-linux-arm64"
+      sha256 "22469502c063b6dd828b3188fdd0ab612892b7217d937cc70e9dc111277f75aa"
     end
     on_intel do
-      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.7.0/ai-harness-init-linux-amd64"
-      sha256 "91fe2ba5ab15f1d289b274f20bdefab9a5fc1d39fe38e0bc82f446a8cc0f3642"
+      url "https://github.com/pt9912/ai-harness-init/releases/download/v0.8.0/ai-harness-init-linux-amd64"
+      sha256 "6d89528d9b137b90667d7c1611da75301a5e60ee6d45058d24285c653e171ffc"
     end
   end
 
